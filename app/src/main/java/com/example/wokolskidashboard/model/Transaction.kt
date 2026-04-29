@@ -1,5 +1,4 @@
 package com.example.wokolskidashboard.model
-
 import java.util.UUID
 
 /**
@@ -12,3 +11,4 @@ data class Transaction(
     val isExpense: Boolean,                       // true = Koszt, false = Zysk
     val isUnnecessary: Boolean = false            // Specjalna flaga Wokulskiego (dla wydatków)
 )
+
