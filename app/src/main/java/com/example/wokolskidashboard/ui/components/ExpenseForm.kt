@@ -61,7 +61,7 @@ fun ExpenseForm(
                     if (title.isNotBlank() && amount > 0) {
                         onAddExpense(
                             Transaction(
-                                title = title,
+                                name = title,
                                 amount = amount,
                                 isExpense = true,
                                 isUnnecessary = isUnnecessary

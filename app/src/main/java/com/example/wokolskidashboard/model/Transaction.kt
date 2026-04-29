@@ -7,7 +7,7 @@ import java.util.UUID
  */
 data class Transaction(
     val id: String = UUID.randomUUID().toString(), // Unikalny klucz dla LazyColumn
-    val title: String,                            // Nazwa towaru/celu
+    val name: String,                            // Nazwa towaru/celu
     val amount: Double,                           // Kwota w rublach
     val isExpense: Boolean,                       // true = Koszt, false = Zysk
     val isUnnecessary: Boolean = false            // Specjalna flaga Wokulskiego (dla wydatków)
